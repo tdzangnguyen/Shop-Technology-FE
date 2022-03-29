@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet" />
+
+    <!-- Favicon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Style sheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Technology Shop</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <!-- Navigation -->
+        <div class="navigation">
+            <div class="container">
+                <nav class="nav">
+                    <div class="nav__logo">
+                        <a href="index.html" class="scroll-link"> SHOP</a>
+                    </div>
+
+                    <div class="nav__menu">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="#header" class="nav__link scroll__link">Home</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#category" class="nav__link scroll__link">Category</a>
+                                <ul class="subnav">
+                                    <li>
+                                        <a href="category.html"><span>Điện thoại thông minh</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="category.html"><span>Máy tính bảng</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="category.html"><span>Đồng hồ thông minh</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="category.html"><span>Phụ kiện</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="category.html"><span>Ứng dụng và dịch vụ</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link scroll__link">Blog</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link scroll__link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="text-TimKiem">
+                        <input type="text" placeholder="Tìm Kiếm" maxlength="50" autocomplete="off" />
+                    </div>
+                    <div class="nav__icons">
+                        <a href="account.html" class="icon__item">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="icon__item item-cart">
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            <span id="cart__total">1</span>
+                            <!------- cart------->
+                            <div class="cart-dropdown">
+                                <div class="count-products">
+                                    <span class="soLuongSP" id="count"></span>
+                                    <span>trong giỏ hàng</span>
+                                </div>
+                                <div class="btn-Cart">
+                                    <span>Giỏ hàng: 19.999.999 đ</span>
+                                </div>
+                                <!-- Render cart total -->
+                            </div>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="account-item-content">
+        <div class="container toparea">
+            <div class="account-underlined-title">
+                <div class="editContent">
+                    <h1 class="text-center latestitems">THIẾT LẬP THÔNG TIN CÁ NHÂN</h1>
+                </div>
+                <div class="wow-hr type_short">
+                    <span class="wow-hr-h">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </span>
+                </div>
+            </div>
+            </form>
+            <div id="edd_account_form_wrap " class="col-md-8 col-md-offset-2">
+                <form id="edd_account_form" class="edd_form" action="#" method="POST">
+                    <fieldset id="edd_checkout_user_info">
+                        <legend>Personal Info</legend>
+                        <div class="edd_account_form_info">
+                            <label class="edd-label" for="edd-first">
+                                Full Name <span class="edd-required-indicator">: </span>
+                            </label>
+                            <input class="edd-input account-fullname-input required" type="text" name="edd_first"
+                                placeholder="Full name" id="edd-first" value="" required="">
+                        </div>
+                        <div class="edd_account_form_info">
+                            <label class="edd-label" for="edd-first">
+                                Email Address <span class="edd-required-indicator">: </span>
+                            </label>
+                            <input class="edd-input account-email-input required" type="text" name="edd_first"
+                                placeholder="Email Address" id="edd-first" value="" required="">
+                        </div>
+                        <div class="edd_account_form_info">
+                            <label class="edd-label" for="edd-first">
+                                Your Address <span class="edd-required-indicator">: </span>
+                            </label>
+                            <input class="edd-input account-address-input required" type="text" name="edd_first"
+                                placeholder="Your Address" id="edd-first" value="" required="">
+                        </div>
+                    </fieldset>
+                    <fieldset id="edd_change_user_password">
+                        <legend>Change Passwords</legend>
+                        <div class="edd_password_form_info">
+                            <div class="edd_current_password">
+                                <label class="edd-label" for="edd-first">
+                                    Current Password <span class="edd-required-indicator">: </span>
+                                </label>
+                                <input class="edd-input required" type="password" name="edd_first"
+                                    placeholder="Current Password" id="edd-first" value="" required="">
+                            </div>
+                            <div class="edd_new_password">
+                                <label class="edd-label" for="edd-last">
+                                    New Password <span class="edd-required-indicator">: </span></label>
+                                <input class="edd-input" type="password" name="edd_last" id="edd-last"
+                                    placeholder="New Password" value="">
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class='account_confirm_password'>
+                        <a href="#">Confirm</a>
+                    </div>
+                </form>
+            </div>
+    </section>
+
+    <!-- CALL TO ACTION =============================-->
+
+    <!--Footer-->
+    <footer>
+        <div class="containerFT">
+            <div class="footer-content">
+                <div class="itemsFT">
+                    <a href="#" class="logo">SHOP</a>
+                    <p> Shop luôn mang đến những sản phẩm xịn nhất, mới nhất, rẻ nhất và nhanh nhất.</p>
+                </div>
+                <div class="itemsFT">
+                    <h3> Product</h3>
+                    <ul>
+                        <li><a href="#">Điện thoại thông minh</a></li>
+                        <li><a href="#">Email Finder</a></li>
+                        <li><a href="#">Máy tính bảng</a></li>
+                        <li><a href="#">Đồng hồ thông minh</a></li>
+                        <li><a href="#">Phụ kiện</a></li>
+                        <li><a href="#">Ứng dụng</a></li>
+                    </ul>
+                </div>
+
+                <div class="itemsFT">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+                <div class="itemsFT">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Knowledge Base</a></li>
+                        <li><a href="#">Video Tutorials</a></li>
+                        <li>
+                            <div class="boxHelpFT">
+                                <input type="text" placeholder="  Thông tin hỗ trợ" maxlength="60" autocomplete="off">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- script -->
+    <script>
+
+    </script>
+    <script src="./js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/jsCarttotal.js"></script>
+</body>
+
+</html>

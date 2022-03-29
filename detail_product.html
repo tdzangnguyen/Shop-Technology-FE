@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Favicon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Style sheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Technology Shop</title>
+  </head>
+
+  <body>
+    <header class="header" id="header">
+      <!-- Navigation -->
+      <div class="navigation">
+        <div class="container">
+          <nav class="nav">
+            <div class="nav__logo">
+              <a href="index.html" class="scroll-link"> SHOP</a>
+            </div>
+
+            <div class="nav__menu">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="index.html" class="nav__link scroll__link">Home</a>
+                </li>
+                <li class="nav__item">
+                  <a href="category.html" class="nav__link scroll__link"
+                    >Category</a
+                  >
+                  <ul class="subnav">
+                    <li>
+                      <a href="category.html"><span>Điện thoại thông minh</span></a>
+                    </li>
+                    <li>
+                      <a href="category.html"><span>Máy tính bảng</span></a>
+                    </li>
+                    <li>
+                      <a href="category.html"><span>Đồng hồ thông minh</span></a>
+                    </li>
+                    <li>
+                      <a href="category.html"><span>Phụ kiện</span></a>
+                    </li>
+                    <li>
+                      <a href="category.html"><span>Ứng dụng và dịch vụ</span></a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link scroll__link">Blog</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link scroll__link">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="text-TimKiem">
+              <input
+                type="text"
+                placeholder="Tìm Kiếm"
+                maxlength="50"
+                autocomplete="off"
+              />
+            </div>
+            <div class="nav__icons">
+              <a href="account.html" class="icon__item">
+                <i class="fa fa-user" aria-hidden="true"></i>
+              </a>
+              <a href="#" class="icon__item item-cart">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <span id="cart__total">1</span>
+                <!------- cart------->
+                <div class="cart-dropdown">
+                  <div class="count-products">
+                    <span class="soLuongSP" id="count"></span>
+                    <span>trong giỏ hàng</span>
+                  </div>
+                  <div class="btn-Cart">
+                    <span>Giỏ hàng: 19.999.999 đ</span>
+                  </div>
+                  <!-- Render cart total -->
+                </div>
+              </a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="Padding"></div>
+    <div class="Detailproduct">
+      <div class="containerDT">
+        <div class="imgProDetail">
+          <span class="slide_imgDT">
+            <img
+              itemprop="image"
+              src="https://lumen.thinkpro.vn//backend/uploads/product/color_images/2021/10/29/ideapad-1-11igl05-ct1-05-thinkpro-1.jpg"
+            />
+          </span>
+        </div>
+        <div class="infoProDetail">
+          <div class="nameProDetail">
+            <h1>Dell XPS 15 9500</h1>
+            <span>
+              <ul>
+                <li>
+                  <strong>Vi xử lý</strong>: Intel Core i5 10300H, 4 nhân / 8
+                  luồng
+                </li>
+                <li>
+                  <strong>Màn hình</strong>: 15.6" FHD+ IPS (1920 x 1200) chống
+                  chói
+                </li>
+                <li><strong>Độ phủ màu</strong>: 100% sRGB</li>
+                <li>
+                  <strong>RAM</strong>: 8GB DDR4 bus 2933 MHz (Nâng cấp tối đa
+                  64GB)
+                </li>
+                <li><strong>Card đồ họa</strong>: Intel UHD 630</li>
+                <li>
+                  <strong>Lưu trữ</strong>: 256GB m.2 NVMe (Nâng cấp tối đa 2TB)
+                </li>
+                <li><strong>Pin</strong>: 56Wh</li>
+                <li>
+                  <strong>Kết nối chính</strong>: 2 x USB-C with Thunderbolt 3,
+                  1 x USB-C 3.2 Gen 2, 1 x SD Card slot Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quaerat fuga nesciunt, atque facilis dignissimos velit reiciendis fugit amet assumenda, deleniti corrupti iusto repudiandae. Sapiente sint quaerat velit veritatis cum!
+                </li>
+                <li><strong>Cân nặng</strong>: 2 kg</li>
+                <li><strong>Hệ điều hành</strong>: Windows 10 bản quyền</li>
+              </ul>
+            </span>
+          </div>
+          <div class="addtoCartDT">
+            <button class="js-addtocart"><i class="fa fa-cart-plus" aria-hidden="true"></i>Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="overviewPro">
+        <div class="containerOverview">
+          <h2>Đánh giá chi tiết</h2>
+          <div class="infoOverview">
+            <p>
+              Với ngoại thất vẫn giữ đúng tinh thần táo bạo, đậm chất gaming đi
+              kèm với tổ hợp phần cứng được nâng cấp đáng giá, phiên bản mới
+              nhất của chiếc gaming laptop đến từ nhà Acer – chiếc Acer Nitro 5
+              2021 (Intel H45) xứng đáng là sự lựa chọn mà các bạn không thể bỏ
+              qua trong phân khúc gaming laptop trung cấp.
+            </p>
+            <div class="imgOverview">
+              <span
+                ><img
+                  src="https://lumen.thinkpro.vn/backend/uploads/editor/v2/acer-nitro-5-h45-thinkpro-2.jpg"
+                  alt=""
+                />
+              </span>
+            </div>
+            <p>
+              Vẫn giữ đúng tinh thần gaming tuyệt đối, Acer Nitro 5 2021 (Intel
+              H45) vẫn được thiết kế với những đường cắt xẻ mạnh, gai góc, mang
+              đậm cái nhìn gaming, đặc biệt là phần tản nhiệt phía sau như pô
+              của những chiếc siêu xe, góp phần cân bằng hơn giữa tính nhận dạng
+              laptop chơi game. Với những đường nét rất táo bạo, nhìn chung,
+              thiết kế của Acer Nitro 5 2021 (Intel H45) khá hiếm thấy trên thị
+              trường gaming laptop hiện nay. Đây sẽ là sự lựa chọn hoàn hảo đối
+              với những bạn đang muốn tìm kiếm một sự lựa chọn mới mẻ.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="Binhluan">
+        <div class="containerBL">
+          <h2>Bình luận</h2>
+          <div class="textboxBL">
+            <div class="text-TimKiem">
+              <input
+                type="text"
+                placeholder="Mời bạn để lại bình luận"
+                maxlength="50"
+                autocomplete="off"
+              />
+              <button>Gửi</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="containerFT">
+          <div class="footer-content">
+              <div class="itemsFT">
+                  <a href="#" class="logo">SHOP</a>  
+                  <p> Shop luôn mang đến những sản phẩm xịn nhất, mới nhất, rẻ nhất và nhanh nhất.</p>
+              </div>
+              <div class="itemsFT">
+                  <h3> Product</h3>
+                  <ul>
+                      <li><a href="#">Điện thoại thông minh</a></li>
+                      <li><a href="#">Email Finder</a></li>
+                      <li><a href="#">Máy tính bảng</a></li>
+                      <li><a href="#">Đồng hồ thông minh</a></li>
+                      <li><a href="#">Phụ kiện</a></li>
+                      <li><a href="#">Ứng dụng</a></li>
+                  </ul>                          
+              </div>
+
+              <div class="itemsFT">
+                  <h3>Legal</h3>
+              <ul>
+                  <li><a href="#">Terms</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Cookie Policy</a></li>
+              </ul>
+              </div>
+              <div class="itemsFT">
+                  <h3>Support</h3>
+                  <ul>
+                      <li><a href="#">Knowledge Base</a></li>
+                      <li><a href="#">Video Tutorials</a></li>
+                      <li>
+                        <div class="boxHelpFT">
+                          <input type="text" placeholder="  Thông tin hỗ trợ" maxlength="60" autocomplete="off">
+                        </div>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </footer>
+  <script src="./js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="./js/jsCarttotal.js"></script>
+  </body>
+</html>
